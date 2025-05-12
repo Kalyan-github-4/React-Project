@@ -1,4 +1,4 @@
-const TestamonialDots = ({count, currentIndex, setCurrentIndex}) => {
+const TestimonialDots = ({count, currentIndex, setCurrentIndex}) => {
   return (
     <div className='testimonials-dots'>
       {Array.from({length: count}).map((_, index) => (
@@ -12,4 +12,4 @@ const TestamonialDots = ({count, currentIndex, setCurrentIndex}) => {
   )
 }
 
-export default TestamonialDots
+export default TestimonialDots
